@@ -580,6 +580,9 @@ h6 { font-size: 15px; }
 	background: url(../images/icon_close.png) no-repeat center center #4c3933;
 	background-size: 40%;
 }
+.logos figure {
+	width: 50%;
+}
 .logos .left {
 	padding-right: 8px;
 }
