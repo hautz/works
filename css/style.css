@@ -580,6 +580,12 @@ h6 { font-size: 15px; }
 	background: url(../images/icon_close.png) no-repeat center center #4c3933;
 	background-size: 40%;
 }
+.logos .left {
+	padding-right: 8px;
+}
+.logos .right {
+	padding-left: 8px;
+}
 @media (min-width: 768px) {
 	.work-wrapper {
 		padding: 80px 20px 40px;
@@ -635,6 +641,12 @@ h6 { font-size: 15px; }
 	}
 	.close:hover {
 		background-size: 40%;
+	}
+	.logos .left {
+		padding-right: 13px;
+	}
+	.logos .right {
+		padding-left: 13px;
 	}
 }
 @media (min-width: 1340px) {
