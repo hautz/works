@@ -503,13 +503,13 @@ h6 { font-size: 15px; }
 
 /* About */
 .client-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 .client-list > li {
+	display: inline-block;
+	margin-right: -3px;
 	width: 33%;
 }
 .contact {
@@ -544,7 +544,7 @@ h6 { font-size: 15px; }
 }
 @media (min-width: 1024px) {
 	.client-list {
-		width: 80%;
+		width: 76%;
 	}
 	.client-list > li {
 		width: 25%;
@@ -557,7 +557,7 @@ h6 { font-size: 15px; }
 	padding: 45px 20px 20px;
 }
 .secondary {
-	padding: 0 0 20px 20px;
+	padding: 0 20px 20px 30px;
 }
 .secondary li {
 	position: relative;
